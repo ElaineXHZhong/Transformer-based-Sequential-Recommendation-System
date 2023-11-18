@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/meta_Cell_Phones_and_Accessories.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Cell_Phones_and_Accessories_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Cell
+590071it [00:27, 21272.55it/s]
+1128437it [00:14, 78003.11it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 31367/31367 [00:00<00:00, 224979.71it/s]
+Users: 31367, Items: 41635, Intersects: 224682
+
+real    0m47.817s
+user    0m46.999s
+sys     0m0.792s

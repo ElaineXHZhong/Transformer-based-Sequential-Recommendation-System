@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Pet_Supplies.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Pet_Supplies_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Pet
+6542483it [01:13, 88913.49it/s]
+2098325it [00:26, 77841.87it/s]
+100%|███████████████████████████████████████| 47487/47487 [00:00<00:00, 193918.18it/s]
+Users: 47487, Items: 37864, Intersects: 421615
+
+real    1m44.692s
+user    1m43.989s
+sys     0m0.640s

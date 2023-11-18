@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Patio_Lawn_and_Garden.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Patio_Lawn_and_Garden_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Garden
+5236058it [00:56, 91961.66it/s]
+798415it [00:09, 79941.74it/s]
+100%|█████████████████████████| 20533/20533 [00:00<00:00, 225232.35it/s]
+Users: 20533, Items: 28333, Intersects: 157748
+
+real    1m9.646s
+user    1m9.086s
+sys     0m0.525s

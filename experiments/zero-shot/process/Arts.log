@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Arts_Crafts_and_Sewing.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Arts_Crafts_and_Sewing_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Arts
+2875917it [00:28, 100061.38it/s]
+494485it [00:05, 89663.26it/s]
+100%|█████████████████████████| 11260/11260 [00:00<00:00, 205276.06it/s]
+Users: 11260, Items: 19455, Intersects: 98371
+
+real    0m36.617s
+user    0m36.258s
+sys     0m0.341s

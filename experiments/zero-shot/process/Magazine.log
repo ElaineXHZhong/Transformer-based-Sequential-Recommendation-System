@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Magazine_Subscriptions.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Magazine_Subscriptions_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Magazine
+89689it [00:01, 87498.50it/s]
+2375it [00:00, 75306.53it/s]
+100%|███████████████████████████████| 69/69 [00:00<00:00, 238784.63it/s]
+Users: 69, Items: 125, Intersects: 458
+
+real    0m1.156s
+user    0m1.128s
+sys     0m0.028s

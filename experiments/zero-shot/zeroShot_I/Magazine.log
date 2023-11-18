@@ -1,0 +1,24 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer$ time python zero-shot.py --pretrain_ckpt /home/admin/Elaine/RecFormer/pretrain_ckpt/recformer_seqrec_ckpt.bin --data_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Magazine --num_train_epochs 128 --batch_size 16 --device 1 --fp16 --finetune_negative_sample_size -1 > /home/admin/Elaine/RecFormer/zeroShot_I/Magazine.log 2>&1
+
+real    0m8.200s
+user    0m7.689s
+sys     0m7.326s
+
+Global seed set to 42
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization. 
+The tokenizer class you load from this checkpoint is 'LongformerTokenizer'. 
+The class this function is called from is 'RecformerTokenizer'.
+Namespace(pretrain_ckpt='/home/admin/Elaine/RecFormer/pretrain_ckpt/recformer_seqrec_ckpt.bin', data_path='/home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Magazine', output_dir='checkpoints', ckpt='best_model.bin', model_name_or_path='allenai/longformer-base-4096', train_file='train.json', dev_file='val.json', test_file='test.json', item2id_file='smap.json', meta_file='meta_data.json', preprocessing_num_workers=8, dataloader_num_workers=0, temp=0.05, num_train_epochs=128, gradient_accumulation_steps=8, finetune_negative_sample_size=-1, metric_ks=[10, 50], batch_size=16, learning_rate=5e-05, weight_decay=0, warmup_steps=100, device=1, fp16=True, fix_word_embedding=False, verbose=3)
+[Preprocessor] Use cache: /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Magazine/preprocess/tokenized_items_Magazine
+Successfully load 125 tokenized items.
+[Item Embeddings] Use cache: /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Magazine/preprocess/tokenized_items_Magazine
+Initalize item embeddings from vectors.
+
+Evaluate:   0%|                                                               | 0/5 [00:00<?, ?it/s]/home/admin/anaconda3/envs/Recformer/lib/python3.10/site-packages/transformers/modeling_utils.py:862: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+
+Evaluate:  20%|███████████                                            | 1/5 [00:00<00:01,  3.36it/s]
+Evaluate:  60%|█████████████████████████████████                      | 3/5 [00:00<00:00,  7.93it/s]
+Evaluate: 100%|███████████████████████████████████████████████████████| 5/5 [00:00<00:00, 10.88it/s]
+Evaluate: 100%|███████████████████████████████████████████████████████| 5/5 [00:00<00:00,  9.10it/s]
+Test set: {'NDCG@10': 0.9375, 'Recall@10': 0.9375, 'NDCG@50': 0.9375, 'Recall@50': 0.9375, 'MRR': 0.9380530953407288, 'AUC': 0.9440000057220459}

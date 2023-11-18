@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/meta_Grocery_and_Gourmet_Food.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Grocery_and_Gourmet_Food_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Grocery
+287051it [00:07, 37200.88it/s]
+1143860it [00:14, 81189.66it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25169/25169 [00:00<00:00, 193919.42it/s]
+Users: 25169, Items: 35431, Intersects: 224315
+
+real    0m25.206s
+user    0m24.783s
+sys     0m0.409s

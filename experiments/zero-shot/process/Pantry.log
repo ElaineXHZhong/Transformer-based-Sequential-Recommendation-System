@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Prime_Pantry.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Prime_Pantry_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Pantry
+471614it [00:04, 105719.99it/s]
+137788it [00:01, 100843.79it/s]
+100%|█████████████████████████████████████████| 2784/2784 [00:00<00:00, 218513.84it/s]
+Users: 2784, Items: 4437, Intersects: 26515
+
+real    0m6.109s
+user    0m6.061s
+sys     0m0.045s

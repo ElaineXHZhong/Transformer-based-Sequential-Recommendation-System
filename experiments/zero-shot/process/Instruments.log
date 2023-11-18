@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Musical_Instruments.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Musical_Instruments_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Instruments
+1512530it [00:17, 86338.94it/s]
+231392it [00:03, 75665.96it/s]
+100%|███████████████████████████| 5548/5548 [00:00<00:00, 224282.66it/s]
+Users: 5548, Items: 9039, Intersects: 46597
+
+real    0m21.534s
+user    0m21.348s
+sys     0m0.176s

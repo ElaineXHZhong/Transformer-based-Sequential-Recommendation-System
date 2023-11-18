@@ -1,0 +1,9 @@
+(Recformer) kh@acslinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/kh/Elaine/RecFormer/dataset/meta/meta_CDs_and_Vinyl.json.gz --file_path /home/kh/Elaine/RecFormer/dataset/seq/CDs_and_Vinyl_5.json.gz --output_path /home/kh/Elaine/RecFormer/finetune_data/dataset/meta/CDs
+516914it [00:11, 45165.26it/s]
+1443755it [00:26, 53608.27it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21863/21863 [00:00<00:00, 159363.91it/s]
+Users: 21863, Items: 57392, Intersects: 256035
+
+real    0m42.368s
+user    0m41.665s
+sys     0m0.679s

@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Video_Games.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Video_Games_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Video
+2565349it [00:33, 76791.11it/s]
+497577it [00:08, 56911.42it/s]
+100%|█████████████████████████| 10993/10993 [00:00<00:00, 204492.67it/s]
+Users: 10993, Items: 15361, Intersects: 98631
+
+real    0m43.302s
+user    0m42.927s
+sys     0m0.353s

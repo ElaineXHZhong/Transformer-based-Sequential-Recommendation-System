@@ -1,0 +1,1 @@
+Test set: {'NDCG@10': 1.0, 'Recall@10': 1.0, 'NDCG@50': 1.0, 'Recall@50': 1.0, 'MRR': 1.0, 'AUC': 1.0}

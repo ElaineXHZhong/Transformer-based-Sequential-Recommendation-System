@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Luxury_Beauty.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Luxury_Beauty_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Luxury
+574628it [00:06, 92608.14it/s]
+34278it [00:00, 67879.87it/s]
+100%|█████████████████████████████| 779/779 [00:00<00:00, 245408.05it/s]
+Users: 779, Items: 1342, Intersects: 6936
+
+real    0m6.886s
+user    0m6.844s
+sys     0m0.040s

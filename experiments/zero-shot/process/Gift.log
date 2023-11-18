@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Gift_Cards.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Gift_Cards_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Gift
+147194it [00:01, 110703.76it/s]
+2972it [00:00, 103904.91it/s]
+100%|███████████████████████████████| 91/91 [00:00<00:00, 258767.23it/s]
+Users: 91, Items: 140, Intersects: 611
+
+real    0m1.450s
+user    0m1.445s
+sys     0m0.005s

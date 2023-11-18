@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Digital_Music.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Digital_Music_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Digital
+1584082it [00:18, 87122.60it/s]
+169781it [00:02, 84605.71it/s]
+100%|███████████████████████████| 3270/3270 [00:00<00:00, 208783.02it/s]
+Users: 3270, Items: 9631, Intersects: 33671
+
+real    0m22.857s
+user    0m22.574s
+sys     0m0.244s

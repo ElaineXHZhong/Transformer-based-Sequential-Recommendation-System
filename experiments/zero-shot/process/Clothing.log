@@ -1,0 +1,9 @@
+(Recformer) kh@acslinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/kh/Elaine/RecFormer/dataset/meta/meta_Clothing_Shoes_and_Jewelry.json.gz --file_path /home/kh/Elaine/RecFormer/dataset/seq/Clothing_Shoes_and_Jewelry_5.json.gz --output_path /home/kh/Elaine/RecFormer/finetune_data/dataset/meta/Clothing
+2685059it [01:43, 26000.86it/s]
+11285464it [02:16, 82798.31it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 244369/244369 [00:01<00:00, 181171.64it/s]
+Users: 244369, Items: 326942, Intersects: 2259859
+
+real    4m43.118s
+user    4m35.276s
+sys     0m7.460s

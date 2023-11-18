@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Sports_and_Outdoors.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Sports_and_Outdoors_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Sports
+12980837it [02:23, 90755.98it/s]
+2839940it [00:36, 77046.23it/s]
+100%|█████████████████████████| 66085/66085 [00:00<00:00, 197070.31it/s]
+Users: 66085, Items: 90961, Intersects: 564566
+
+real    3m9.342s
+user    3m7.827s
+sys     0m1.421s

@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/meta_Electronics.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Electronics_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Electronics
+786445it [01:34, 8331.90it/s] 
+6739590it [01:34, 71357.09it/s]
+100%|██████████████████████████████| 145702/145702 [00:00<00:00, 184043.50it/s]
+Users: 145702, Items: 142253, Intersects: 1349258
+
+real    3m24.091s
+user    3m20.986s
+sys     0m2.748s

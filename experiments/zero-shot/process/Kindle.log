@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Kindle_Store.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Kindle_Store_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Kindle
+5722988it [01:14, 76663.74it/s]
+2222983it [00:34, 63817.49it/s]
+100%|█████████████████████████| 28215/28215 [00:00<00:00, 126230.97it/s]
+Users: 28215, Items: 87563, Intersects: 450230
+
+real    1m54.883s
+user    1m53.815s
+sys     0m1.008s

@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/AMAZON_FASHION.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/AMAZON_FASHION_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Fashion
+883636it [00:08, 99563.15it/s] 
+3176it [00:00, 90520.65it/s]
+100%|███████████████████████████████| 80/80 [00:00<00:00, 272800.26it/s]
+Users: 80, Items: 18, Intersects: 619
+
+real    0m9.961s
+user    0m9.856s
+sys     0m0.100s

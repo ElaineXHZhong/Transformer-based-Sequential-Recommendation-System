@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Office_Products.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Office_Products_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Office
+5581313it [00:59, 93892.19it/s] 
+800357it [00:09, 81090.46it/s]
+100%|███████████████████████████████████████| 20474/20474 [00:00<00:00, 225078.45it/s]
+Users: 20474, Items: 24351, Intersects: 161759
+
+real    1m12.139s
+user    1m11.637s
+sys     0m0.468s

@@ -1,0 +1,5 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer$ time python zero-shot.py --pretrain_ckpt /home/admin/Elaine/RecFormer/pretrain_ckpt/recformer_seqrec_ckpt.bin --data_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Beauty --num_train_epochs 128 --batch_size 16 --device 0 --fp16 --finetune_negative_sample_size -1 > /home/admin/Elaine/RecFormer/zeroShot_I/Beauty.log 2>&1
+
+real    0m9.339s
+user    0m7.997s
+sys     0m7.135s

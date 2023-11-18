@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Tools_and_Home_Improvement.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Tools_and_Home_Improvement_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Tools
+9015203it [01:38, 91275.69it/s]
+2070831it [00:26, 77644.14it/s]
+100%|█████████████████████████| 48192/48192 [00:00<00:00, 196807.47it/s]
+Users: 48192, Items: 64369, Intersects: 416493
+
+real    2m11.512s
+user    2m10.724s
+sys     0m0.725s

@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/Toys_and_Games.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Toys_and_Games_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Toys
+8201231it [01:25, 95384.12it/s] 
+1828971it [00:21, 83329.51it/s]
+100%|████████████████████████| 41598/41598 [00:00<00:00, 198588.23it/s]
+Users: 41598, Items: 68309, Intersects: 365331
+
+real    1m54.021s
+user    1m53.116s
+sys     0m0.851s

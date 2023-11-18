@@ -1,0 +1,9 @@
+(Recformer) admin@lablinux:~/Elaine/RecFormer/finetune_data$ time python process.py --meta_file_path /home/admin/Elaine/RecFormer/dataset/meta/meta_Automotive.json.gz --file_path /home/admin/Elaine/RecFormer/dataset/seq/Automotive_5.json.gz --output_path /home/admin/Elaine/RecFormer/finetune_data/dataset/meta/Automotive
+931294it [02:30, 6180.67it/s] 
+1711519it [00:19, 86245.99it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 38600/38600 [00:00<00:00, 196851.04it/s]
+Users: 38600, Items: 67844, Intersects: 341898
+
+real    2m58.796s
+user    2m57.167s
+sys     0m1.533s
