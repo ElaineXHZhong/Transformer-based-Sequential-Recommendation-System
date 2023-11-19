@@ -8,7 +8,11 @@ torch.cuda.set_device(id)
 from sentence_transformers import SentenceTransformer, util
 model = SentenceTransformer('sentence-transformers/gtr-t5-large')
 
-META_ROOT = '/mnt/disk00/asachan/RecFormer/meta_root' # Set your meta data path
+
+META_ROOT = '' # Set your meta data path
+
+#Download the amazon v2 dataset
+#https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
 pretrain_categories = ['All_Beauty', 'Industrial_and_Scientific', 'AMAZON_FASHION', 'Kindle_Store',
 'Appliances', 'Luxury_Beauty', 'Arts_Crafts_and_Sewing', 'Magazine_Subscriptions', 'Automotive',
@@ -36,10 +40,7 @@ for path in pretrain_meta_pathes:
         with open(comparing_file_path, 'r') as f2:
             embedding_2 = model.encode(f2.read(), convert_to_tensor=True)
         tokenizer = model.tokenizer
-        #pdb.set_trace()
-        #print (util.pytorch_cos_sim(embedding_1, embedding_2))
         print ("%.5f\t" % round(float(util.pytorch_cos_sim(embedding_1, embedding_2)),5), end="")
-        
     print()
 
     

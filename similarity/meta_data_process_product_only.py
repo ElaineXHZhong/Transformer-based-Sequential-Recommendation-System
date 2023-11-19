@@ -10,7 +10,7 @@ import pdb
 META_ROOT = '/mnt/disk00/asachan/RecFormer/meta_root' # Set your meta data path
 
 
-'''
+
 pretrain_categories = ['All_Beauty',
 'Industrial_and_Scientific',
 'AMAZON_FASHION',
@@ -36,9 +36,7 @@ pretrain_categories = ['All_Beauty',
 'Grocery_and_Gourmet_Food',
 'Sports_and_Outdoors',
 'Home_and_Kitchen']
-'''
 
-pretrain_categories = ['AMAZON_FASHION']
 pretrain_meta_pathes = [f'{META_ROOT}/meta_{cate}.json.gz' for cate in pretrain_categories]
 
 for path in pretrain_meta_pathes:
